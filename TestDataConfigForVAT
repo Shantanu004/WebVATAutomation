@@ -1,0 +1,187 @@
+//TestData_For_LoginPage
+invalidUsername=abcd
+InvalidPassword=1234
+InvalidCredentials=Fail
+validedSuccessfullyLogin=To Date :
+
+//TestData_For_HomePage
+LoginVerificationInHomePage=Total VAT Amount
+HomePageNavigateToOpeningBalanaceVerfiy=Opening Balance List
+
+//TestData_For_OpeningBalance
+OpeningBalanceADDButtonVerification=Opening Balance
+AlertMsgForOpeningBalanceItemInfoAddBtn=Please first Entry from Required Field.
+ItemName=10 ml Glass cup
+QuantityOfItem=50
+UnitPriceOfItem=20
+VerifySaveBtnIsDisplayed=Save
+VerifyTotalAmntIsCorrect=1000
+InputDataRangeValueInSearchField=Date Range
+InputTodayInDateSearchField=Today
+InputThisYearInDateSearchField=This Year
+SearchingValue=OP01230700918
+
+//TestData_For_PurchaseReceive
+warningMessageDisplayStatus=Please fill-up required(*) fields
+purchaseReceiveHeading=Purchase Receive
+TotalAmountFieldWithZero=true
+PurchaseReceiveItemValue=100 ml Pet Bottle
+ChallanNo=AutomationChallan01
+SupplyName=ABC CHEMICAL LIMITED
+UnitPrice=10
+Quantity=20
+TotalAmountValue=Total :
+ExpectedSupplierNameForAssert=ABC CHEMICAL LIMITED
+ExpectedTotalAmountValueInPurchaseRcvHomepage=200
+ExpectedPurchaseRcvChallanValue=Challan090311
+ExpectedInvalidSearchingValue=(No Data Found.)
+ExpectedRcvTypeValue=LOCAL
+ExpectdSupplierName=NEW QA SUPPLIER 2
+ExpectedQtyValue=10
+ExpectedUnitPrice=40
+ExpectedTotalAmt=400
+
+//TestData_For_PurchaseReturn
+ExpectedPurchaseReceiveHeadingName=Purchase Return Report
+PurchaseReturnSupplierName=New QA Supplier
+PurchaseRetuenChallanNumber=NewChallan7182023
+PurchaseReturnItemName1=New QA Raw Material 2
+PurchaseReturnItemName2=New QA Raw Material 3
+PurchaseReturnQuantityValue=2
+PurchaseReturnCalculatedValueForAssert=1600
+DateDurationForItemSearch=This Year
+DisplayTextForNonExisitingValue=(No Data Found.)
+DisplayMessageForRequiredField=Please fill-up required(*) fields
+DisplayTotalTextValue=Total :
+DisplayMsgForNoItemValue=(No Data Found.)
+AssertForTotalAmountValue=20
+PurchaseReturnSupplierName1=Sun Limited
+PurchaseRetuenChallanNumber2=cfvb
+PurchaseReturnItemName3=Alovera Leaf
+PurchaseReturnItemName4=10 ml Glass cup
+PurchaseReturnQuantityValue1=6
+ExpectedTotalAmountvalue=48.3
+ExpectedEditedItemNameTextValue= New QA Raw Materials 6
+ExpectedEditedReturnQtyValue=1
+
+//TestData_For_CostingCalculation
+ProductName=New QA Product
+TotalAmountOfCostingCalculationItem=118016.4
+ExpectedMsgForNoData=(No Data Found.)
+ExpectedItem1ChallanNo=0000 /08-08-2023
+ExpectedItem2ChallanNo=0000 /08-08-2023
+ExpectedItem3ChallanNo=NewQARawChallan01 /17-07-2023
+
+//TestData_For_InputOutputCoefficient
+ProductName=New QA Product
+ExpectedSearchingValueOfInputOutputCoefficient=New QA Product 3 (Product)
+ExpectedEmptyProductInTextField=--Select One--
+ExpectedEmptySearchField=
+ExpectedSearchingValueAfterSaving=New QA Product 3 (Product)
+
+//TestData_For_BatchSetUp
+ExpectedBatchSetUpHeadingName=Batch Setup
+ProductName=New QA Product
+BatchSizeValue=10
+ExpectedSavingBatchItemName=New QA Product ( Product)
+ExpectedBatchItemName=New QA Product 4 ( QA Test)
+ExpectedWarningMessageForRequiredField=Please fill-up required(*) fields
+ExpectedBatchInfoDeleteConfirmMsg=Successfully Deleted.
+
+//TestData_For_Consumption_RawAndPackingMaterials
+ExpectedHeadingOfConsuptionAddPage=Raw And Packing Materials Consumption
+ExpectedProductNameOfRaw=New QA Product (Product)
+ExpectedProductNameOfPacking=New QA Product 4 (QA Test)
+ExpectedBatchName=P2424:63
+ExpectedConsumptionTypeForPacking=Packing Material
+ExpectedConsumptionTypeForRaw=Raw Material
+
+//TestData_For_FinishGoodsReceive
+ExpectedRcvQty=1
+ExpectedWarningMsgForFinishGoodsRcv=Please fill-up required(*) fields
+ExpectedDisplayMsgForNoData=(No Data Found.)
+ExpectedRcvQty=1
+ExpectedEditedReceiveQtyTextValue=2
+
+//TestData_For_SalesChallan
+ExpectedBuyerNameTextValue=New QA Buyer
+ExpectedHeadingText=Sales Challan History
+ExpectedWarningMsgForSalesChallan=Please fill-up required(*) fields
+ExpectedTotalAmtInEditPage=0.00
+ExpectedEditedTotalAmt=376
+ExpectedEditingBuyerName=Foreign Customer
+ExpectedEditingVATRegNo=45452525
+ExpectedEditingChallanType=Direct Export
+ExpectedEditingQtyValue=2
+ExpectedEditingTotalAmt=376
+ExpectedItemNameInPdfFileAfterEditing=New QA Product
+ExpectedTotalAmtInPdfFileAfterEditing=376.00
+ExpectedBuyerNameInPdfFileAfterVerfying=New QA Buyer
+ExpectedVATRegNoInPdfFileAfterVerfying=211555641551
+
+
+
+//TestData_For_SalesReturn
+ExpectedTotalAmtValue=110.00
+ExpectedSalesReturnHeadingText=Sales Return History
+ExpectedWarningMsgForSalesReturnRequiredField=Please fill-up required(*) fields
+ExpectedReturnDateTextValue=12-DEC-2023
+ExpectedBuyerNameAfterSaving=New QA Buyer
+ExpectedVatRegNoAfterSaving=211555641551
+
+//TestData_For_MiscellaneousAdjustment
+ExpectedWarningMsgForMiscellaneousAdjustment=Please fill-up required(*) fields
+ExpectedAdjustmentForValue=Incremental Adjustment fromTax Deducted fromSource
+ExpectedMiscellaneousSearchingInfo=V012312000513
+ExpectedEditingAdjustmentType=Decrease Other�s Adjustment
+ExpectedEditingAdjustmentFor=Reduced Adjustment of money paid as Advance Tax
+ExpectedEditingAdjustmentAmt=100
+
+
+//TestData_For_FinishGoodsTransfer
+ExpectedWarningMsgForFinishGoodsTransfer=Please fill-up required(*) fields
+ExpectedVehicleNoValue=011
+ExpectedReceivingBranch=ATI Service Limited
+ExpectedPreparedBy=Md Sulaiman Shamim
+ExpectedVehicleNoTextValue=022
+ExpectedTotalAmtInDashboard=642
+
+//TestData_For_GoodsTransferReceive
+ExpectedDisplayText=(No Data Found.)
+
+//TestData_For_TreasuryChallan
+ExpectedWarningMsgForTreasuryChallan=Please fill-up required(*) fields
+
+//TestData_For_UselessWastageRawOrPackingMaterialsPage
+ExpextedMsg=(No Data Found.)
+ExpectedPresentPriceValue=60
+ExpectedSearchingValue=New QA Raw Material 2 > Rcv No: (RC01230700877) > Qty: 2Pcs.
+ExpectedEditingItemName=New QA Raw Material 3
+ExpectedEditingReceiveName(ForRCVDate)=RC01230700878
+ExpectedEditingQtyValue=2
+ExpectedEditingPresentPrice=55
+
+//TestData_For_UselessWastageProduct
+ExpectedWarningMsg=Please fill up required* fields  (QTY and Price must greater than Zero)
+ExpectedExactPrice=321
+ExpectedSavingInfo=New QA Product 3 > Qty: 1Pcs.
+ExpectedUpdatingQtyValueMsg=New QA Product 2 > Qty: 2Pcs.
+ExpectedUpdatingItemNameValue=New QA Product 2 > Qty: 2Pcs.
+ExpectedEmptyDataTextMsg=(No Data Found.)
+ExpectedWarningPopUpMsg=Please fill-up required(*) fields
+
+//Testdata_For_SourceVAT
+ExpectedWarningMsgForSourceVATRequiredField=Please fill-up required(*) fields
+ExpectedTotalSourceVATFieldTextValue=
+ExpectedSupplierName=HELLO SUPPLIER
+ExpectedBankName=HELLO BANK LIMITED
+ExpectedBranchName=HELLO
+ExpectedVatableAmtTextValue=200
+ExpectedVatAmtTextValue=20
+ExpectedSourceVatTextValue=20
+ExpectedCustomerName=Local customer
+
+//TestData_For_Report Module
+//Vat & Rebate Sub-Module
+//Useless Raw And Packing Materials(MUshak-4.4)
+ExpectedItemHISCode=48191000

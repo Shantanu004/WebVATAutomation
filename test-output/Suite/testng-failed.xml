@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ListenerForVAT.ListenerFor_VAT_Automation"/>
+  </listeners>
+  <test thread-count="5" name="MainTestNgFile(failed)">
+    <classes>
+      <class name="TestCase_For_BatchSetUp.TestCase_Of_BatchSetUp">
+        <methods>
+          <include name="VerifySaveDataWithOutFilledUpBatchDateRequiredField"/>
+          <include name="VerifyBatchItemNameSearchFromHistory"/>
+          <include name="VerifyBatchSizeRequiredFieldInTheUpdateForm"/>
+          <include name="VerifyRequiredFieldInTheUpdateForm"/>
+          <include name="VerifyBatchDateRequiredFieldInTheUpdateForm"/>
+          <include name="teardown"/>
+          <include name="VerifyActiveStatusWithSavingBatchInfoData"/>
+          <include name="BrowserSetUp"/>
+        </methods>
+      </class> <!-- TestCase_For_BatchSetUp.TestCase_Of_BatchSetUp -->
+    </classes>
+  </test> <!-- MainTestNgFile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

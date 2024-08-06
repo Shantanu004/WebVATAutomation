@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T12:29:00 BDT" name="Default suite" finished-at="2024-08-06T12:29:58 BDT" duration-ms="58092">
+    <groups>
+    </groups>
+    <test started-at="2024-08-06T12:29:00 BDT" name="Default test" finished-at="2024-08-06T12:29:58 BDT" duration-ms="58092">
+      <class name="AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports">
+        <test-method is-config="true" signature="BrowserSetUp()[pri:0, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:01 BDT" name="BrowserSetUp" finished-at="2024-08-06T12:29:44 BDT" duration-ms="42992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetUp -->
+        <test-method signature="VerifyInputOutputCoefficientReportFile()[pri:10, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:44 BDT" name="VerifyInputOutputCoefficientReportFile" finished-at="2024-08-06T12:29:55 BDT" duration-ms="11211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInputOutputCoefficientReportFile -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:55 BDT" name="teardown" finished-at="2024-08-06T12:29:58 BDT" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

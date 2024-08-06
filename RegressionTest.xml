@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+	<listeners>
+		<listener
+			class-name="ListenerForVAT.ListenerFor_VAT_Automation" />
+	</listeners>
+	<test name="RegressionTest">
+		<classes>
+			<class name="TestCase_For_SourceVATPage.TestCase_Of_SourceVATPage" />
+			<class name="TestCase_For_UselessWastageProductPage.TestCase_Of_UselessWastageProductPage" />
+		</classes>
+	</test> <!-- RegressionTest -->
+</suite> <!-- RegressionTest -->
