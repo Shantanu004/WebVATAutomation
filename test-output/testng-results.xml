@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+<testng-results ignored="15" total="16" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T12:29:00 BDT" name="Default suite" finished-at="2024-08-06T12:29:58 BDT" duration-ms="58092">
+  <suite started-at="2024-08-19T17:21:34 BDT" name="Default suite" finished-at="2024-08-19T17:22:34 BDT" duration-ms="59529">
     <groups>
     </groups>
-    <test started-at="2024-08-06T12:29:00 BDT" name="Default test" finished-at="2024-08-06T12:29:58 BDT" duration-ms="58092">
-      <class name="AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports">
-        <test-method is-config="true" signature="BrowserSetUp()[pri:0, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:01 BDT" name="BrowserSetUp" finished-at="2024-08-06T12:29:44 BDT" duration-ms="42992" status="PASS">
+    <test started-at="2024-08-19T17:21:34 BDT" name="Default test" finished-at="2024-08-19T17:22:34 BDT" duration-ms="59529">
+      <class name="SetupModuleForTestCase.TestCase_Of_BasicSetup">
+        <test-method is-config="true" signature="BrowserSetUp()[pri:0, instance:SetupModuleForTestCase.TestCase_Of_BasicSetup@563f38c4]" started-at="2024-08-19T17:21:34 BDT" name="BrowserSetUp" finished-at="2024-08-19T17:21:59 BDT" duration-ms="25170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetUp -->
-        <test-method signature="VerifyInputOutputCoefficientReportFile()[pri:10, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:44 BDT" name="VerifyInputOutputCoefficientReportFile" finished-at="2024-08-06T12:29:55 BDT" duration-ms="11211" status="PASS">
+        <test-method signature="VerifyEditingAndUpdatingInfoOfChildPage()[pri:16, instance:SetupModuleForTestCase.TestCase_Of_BasicSetup@563f38c4]" started-at="2024-08-19T17:21:59 BDT" name="VerifyEditingAndUpdatingInfoOfChildPage" finished-at="2024-08-19T17:22:30 BDT" duration-ms="30635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyInputOutputCoefficientReportFile -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports@27406a17]" started-at="2024-08-06T12:29:55 BDT" name="teardown" finished-at="2024-08-06T12:29:58 BDT" duration-ms="3518" status="PASS">
+        </test-method> <!-- VerifyEditingAndUpdatingInfoOfChildPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SetupModuleForTestCase.TestCase_Of_BasicSetup@563f38c4]" started-at="2024-08-19T17:22:30 BDT" name="teardown" finished-at="2024-08-19T17:22:34 BDT" duration-ms="3591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- AllTestCasesForEachPagesOfReportModule.TestCase_Of_MISReports -->
+      </class> <!-- SetupModuleForTestCase.TestCase_Of_BasicSetup -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

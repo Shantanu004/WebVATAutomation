@@ -100,7 +100,6 @@ public class BatchSetUpPage {
 	private WebElement batchInfoDeleteConfirmMsg;
 	
 	
-	
 	public BatchSetUpPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

@@ -1,3 +1,17 @@
+//TestData_For_SetUpModule
+
+//TestData_Of_BasicSetupDashboard
+ExpectedBasicSetupDashboardName=Basic Setup Information
+ExpectedBasicSetupDeleteMsg=(No Data Found.!)
+
+//TestData_Of-BasicSetupPage
+ExpectedAddPageHeadingName=BASIC SETUP
+
+//TestData_Of_AddChildPage
+ExpectedHeadingNameForAddChildPage=BASIC SETUP DETAIL
+
+
+
 //TestData_For_LoginPage
 invalidUsername=abcd
 InvalidPassword=1234
